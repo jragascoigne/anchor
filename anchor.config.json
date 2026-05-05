@@ -1,0 +1,10 @@
+{
+	"endpoints": [
+		{
+			"name": "getUser",
+			"url": "http://localhost:8765/user",
+			"method": "GET"
+		}
+	],
+	"watch": ["./example"]
+}
