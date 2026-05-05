@@ -87,30 +87,6 @@ anchor check
 4. **Reports** any missing paths or type mismatches, with fuzzy suggestions for close matches
 ---
  
-## Use in CI
- 
-Anchor exits with code `1` if any issues are found, making it a natural fit for CI pipelines.
- 
-```yaml
-# .github/workflows/anchor.yml
-name: Anchor check
- 
-on: [push, pull_request]
- 
-jobs:
-  anchor:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-      - run: pip install -e .
-      - run: anchor check
-```
- 
----
- 
 ## Project structure
  
 ```
