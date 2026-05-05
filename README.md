@@ -1,6 +1,7 @@
 # Anchor
  
 > A CLI tool that detects API schema drift
+<img width="642" height="211" alt="Screenshot 2026-05-05 at 19 41 07" src="https://github.com/user-attachments/assets/619f6a44-b619-493b-af88-beb4668d9977" />
  
 ---
  
