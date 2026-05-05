@@ -19,6 +19,7 @@ MOCK_USER = {
         "suite": "Apt. 123",
         "city": "Drive Thru City",
         "zipcode": "12345",
+        # coords are strings to test type mismatches
         "geo": {
             "lat": "-44.53225",
             "lng": "105.39719"
@@ -50,5 +51,4 @@ class MockHandler(BaseHTTPRequestHandler):
 if __name__ == "__main__":
     server = HTTPServer(("localhost", 8765), MockHandler)
     print("Mock API running at http://localhost:8765")
-    print("  GET /user  →  returns mock user object")
     server.serve_forever()
