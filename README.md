@@ -136,4 +136,4 @@ anchor/
 - [difflib](https://docs.python.org/3/library/difflib.html) — fuzzy path suggestions (stdlib)
 ---
 
-by [John Gascoigne][https://www.github.com/jragascoigne]
+by [John Gascoigne](https://www.github.com/jragascoigne)
