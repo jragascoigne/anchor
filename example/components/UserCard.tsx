@@ -9,7 +9,10 @@ const email: string = "";
 const city: string = "";
 
 // @Expects('address.geo.lat')
-const lat: string = "";
+const lat: number = 0;
+
+// @Expects('address.geo.lng')
+const lng: number = 0;
 
 // @Expects('company.name')
 const companyName: string = "";
