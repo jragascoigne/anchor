@@ -9,10 +9,8 @@
  
 Anchor is a CLI tool that checks whether the data your frontend expects actually exists in your API response.
  
-You annotate your TypeScript components with `@Expects` comments. Anchor hits your API, compares the response against your annotations, and tells you exactly what's missing or mismatched (with suggestions for what you probably meant).
- 
-Think of it as a spell checker for your API bindings.
- 
+Simply annotate your TypeScript components with `@Expects` comments, then Anchor hits your API, compares the response against your annotations, and tells you exactly what's missing or mismatched (with suggestions for what you probably meant).
+
 ---
  
 ## Install
